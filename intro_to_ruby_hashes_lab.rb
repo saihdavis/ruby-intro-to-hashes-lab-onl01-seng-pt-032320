@@ -61,7 +61,7 @@ def monopoly_with_fourth_tier
         :one_piece_owned => 500,
         :two_pieces_owned => 600,
         :three_pieces_owned => 700,
-        :four_pieces_owned => 900}
+        :four_pieces_owned => 400}
       }
 	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
 }
