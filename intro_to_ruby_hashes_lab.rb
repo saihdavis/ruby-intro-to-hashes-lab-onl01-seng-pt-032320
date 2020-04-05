@@ -4,7 +4,7 @@ def new_hash
 end
 
 def actor
-  actor = {:name => "Michael Jackson"}
+  actor = {:name => "Dwayne The Rock Johnson"}
 
 end
 
@@ -18,7 +18,7 @@ end
 def monopoly_with_second_tier
   monopoly = {
     :railroads => {
-      :pieces => 10,
+      :pieces => 4,
       :names => {},
       :rent_in_dollars => {}
       }
@@ -30,7 +30,7 @@ end
 def monopoly_with_third_tier
   monopoly = {
     :railroads => {
-      :pieces => 10,
+      :pieces => 4,
       :names => {
         :reading_railroad => {},
         :pennsylvania_railroad => {},
@@ -38,10 +38,10 @@ def monopoly_with_third_tier
         :shortline => {}
       },
       :rent_in_dollars => {
-        :one_piece_owned => 500,
-        :two_pieces_owned => 600,
-        :three_pieces_owned => 700,
-        :four_pieces_owned => 900}
+        :one_piece_owned => 525,
+        :two_pieces_owned => 50,
+        :three_pieces_owned => 100,
+        :four_pieces_owned => 400}
       }
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 }
